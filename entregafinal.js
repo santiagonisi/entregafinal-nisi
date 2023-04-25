@@ -1,9 +1,17 @@
+Swal.fire({
+    icon: 'info',
+    title: 'Conversor de Moneda',
+    text: 'Bienvenidos!',
+    
+  })
+
 const monedaEl_one = document.getElementById('moneda-uno');
 const monedaEl_two = document.getElementById('moneda-dos');
 const cantidadEl_one = document.getElementById('cantidad-uno');
 const cantidadEl_two = document.getElementById('cantidad-dos');
 const cambioEl = document.getElementById('cambio');
 const tazaEl = document.getElementById('taza');
+
 
 monedaFavorita1 = "USD"
 monedaFavorita2 = "ARS"

@@ -5,7 +5,14 @@ const cantidadEl_two = document.getElementById('cantidad-dos');
 const cambioEl = document.getElementById('cambio');
 const tazaEl = document.getElementById('taza');
 
-
+monedaFavorita1 = "USD"
+monedaFavorita2 = "ARS"
+valorFavorito = "100"
+sueldo = "1500"
+localStorage.setItem("monedaFavorita1" , "USD")
+localStorage.setItem("monedaFavorita2" , "ARS")
+localStorage.setItem("valorFavorito" , "100")
+localStorage.setItem("sueldo" , "1500")
 
 function calculate(){
     const moneda_one = monedaEl_one.value;
